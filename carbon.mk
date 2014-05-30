@@ -5,8 +5,8 @@ TARGET_SCREEN_WIDTH := 2560
 # Release name
 PRODUCT_RELEASE_NAME := Nexus10
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/carbon/config/common_full_tablet_wifionly.mk)
+# Inherit some common Carbon stuff.
+$(call inherit-product, vendor/carbon/config/common_tablet.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/manta/full_manta.mk)
